@@ -1,28 +1,26 @@
 {
   "siteMetadata": {
-    "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
-    "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
-    "author": "Konstantin Münster",
+    "language": "ko",
+    "siteUrl": "https://jms0522.github.io/",
+    "title": "Jangminsoo's Blog",
+    "titleTemplate": "%s · Jangminsoo's Blog",
+    "description": "Project Introduction and Blog",
+    "author": "Jang Min Soo",
     "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "bio": "Jangminsoo Git Blog",
     "social": {
-      "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
-      "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "github": "https://github.com/jms0522",
+      "linkedin": "linkedin.com/in/minsoo-jang-385200293/",
+      "mail": "mailto:jiseo33668@gmail.com"
     }
   },
   "siteConfiguration": {
-    "logo": { "text": "Portfolio" },
+    "logo": { "text": "Jangminsoo's Blog" },
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
+        { "label": "Projects", "url": "/#features" },
         { "label": "Github", "url": "/#github" }
       ],
       "ctaButton": {
