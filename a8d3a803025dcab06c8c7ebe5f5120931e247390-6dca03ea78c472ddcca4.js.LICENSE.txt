@@ -1,0 +1,3 @@
+/*! For license information please see index.js.LICENSE.txt */
+
+/*! js-cookie v3.0.5 | MIT */
