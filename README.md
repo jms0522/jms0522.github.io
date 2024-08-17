@@ -23,5 +23,5 @@
  ## 💫 원본 소스
  📌[Github](https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme)
  <br>
- 📌[참조-iminchur-Git]("https://github.com/jiminchur/jiminchur.github.io")
+ 📌[참조-iminchur-Git]("https://github.com/jiminchur/jiminchur.github.io/blob/main/README.md")
  
