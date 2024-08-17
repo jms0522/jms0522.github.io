@@ -1,54 +1,26 @@
-<img src="screenshot.png" alt="Gatsby Theme Portfolio Minimal Screenshot" width="700" />
+# 📚 GitHub 블로그 만들기 - Gatsby로 멋지게!
 
-<a href="https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme" target="_blank">
-<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud" />
-</a>
+이 프로젝트는 Gatsby를 사용하여 GitHub 블로그를 구축합니다. 이 블로그는 포트폴리오와 프로젝트 소개를 위한 플랫폼입니다.
+<br>
 
-# Gatsby Starter Portfolio Minimal Theme
 
-#### A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.
+## 🛠️ 사용 기술
 
-Portfolio Minimal is a Gatsby Theme that let's you create outstanding one-page portfolios within minutes. This Gatsby Starter is a boilerplate project that has the theme pre-installed and pre-configured.
+	•	Gatsby: React 기반의 정적 사이트 생성기. 빠른 성능과 확장성을 제공합니다.
+	•	React: 사용자 인터페이스를 구축하기 위한 JavaScript 라이브러리.
+	•	GraphQL: Gatsby에서 데이터를 효율적으로 관리하기 위한 쿼리 언어.
+	•	Markdown: 포스팅 작성에 사용되며, 간편하게 텍스트를 포맷할 수 있습니다.
+	•	GitHub Pages: GitHub 저장소를 통해 웹사이트를 호스팅할 수 있는 기능.
 
-Just clone this Gatsby Starter, add the content. And that's it!
+## 📄 블로그 내용
 
-[Live Demo on Gatsby Cloud](https://gatsbystarterportfoliominimalt.gatsbyjs.io/) · [Live Demo on Netlify](https://gatsby-starter-portfolio-minimal-theme.netlify.app/) · [Portfolio Minimal Theme on Github](https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal)
+이 블로그는 주로 포트폴리오와 프로젝트 소개를 다루고 있습니다. 개인 프로젝트, 팀 프로젝트, 기술 블로그 포스팅 등을 통해 개발 과정과 성과를 기록하고, 이를 통해 다른 개발자 및 잠재적인 고용주와 소통할 수 있습니다.
 
----
+	•	포트폴리오: 자신의 주요 프로젝트와 성과를 정리하여 소개합니다.
+	•	기술 블로그: 최신 기술 동향, 학습한 내용, 개발 팁 등을 포스팅합니다.
+	•	프로젝트 소개: 현재 진행 중인 프로젝트나 과거에 완료한 프로젝트를 상세히 설명합니다.
 
-## Installation
-
-1. Install the Gatsby CLI
-
-   ```sh
-   npm install -g gatsby-cli
-   ```
-
-2. Create a new Gatsby site with the Portfolio Minimal Starter.
-
-   ```sh
-   gatsby new portfolio-minimal https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme
-   ```
-
-3. Once installed, you can begin developing your site.
-
-   ```sh
-   cd portfolio-minimal
-   gatsby develop
-   ```
-
-4. By default, the Portfolio Minimal Starter has a `content` directory at the root of your Gatsby site. There, you can edit the theme settings as well as add content for your sections. To learn more about it, have a look at the [Readme of Portfolio Minimal](https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal/tree/main/gatsby-theme-portfolio-minimal#readme).
-
----
-
-## Issues?
-
-If you find any bugs or have feature suggestions, create a new issue or pull request 🙏
-
-Thanks a lot for using this starter! 💪
-
----
-
-<a href="https://www.buymeacoffee.com/kmuenster" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
-
-Konstantin Münster – [konstantin.digital](https://konstantin.digital)
+ ## 💫 원본 소스
+ [Github](https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme)
+ [참조-iminchur-Git]("https://github.com/jiminchur/jiminchur.github.io")
+ 
