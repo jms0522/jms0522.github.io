@@ -21,6 +21,7 @@
 	•	프로젝트 소개: 현재 진행 중인 프로젝트나 과거에 완료한 프로젝트를 상세히 설명합니다.
 
  ## 💫 원본 소스
- [Github](https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme)
- [참조-iminchur-Git]("https://github.com/jiminchur/jiminchur.github.io")
+ 📌[Github](https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme)
+ <br>
+ 📌[참조-iminchur-Git]("https://github.com/jiminchur/jiminchur.github.io")
  
