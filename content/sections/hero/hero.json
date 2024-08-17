@@ -1,5 +1,5 @@
 {
-  "intro": "Hej",
+  "intro": "Hi",
   "heroPhoto": {
     "src": "../../images/lego-dummy.png",
     "alt": "My Photo"
@@ -8,15 +8,15 @@
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "Welcome to My World!",
+  "title": "Welcome to My World",
   "subtitle": {
-    "prefix": "유용한 정보를 제공하고 발전하도록 노력하겠습니다 🚀",
-    "highlight": "for you",
+    "prefix": "유용한 정보를 제공하고 발전하도록 노력하겠습니다 🚀 ",
+    "highlight": "",
     "suffix": "."
   },
-  "description": "Contact & Inquiries",
+  "description": "",
   "socialProfiles": {
-    "from": ["LinkedIn", "Github", "Mail"],
+    "from": ["LinkedIn", "Github", "Mail","Notion"],
     "showIcons": false
   }
 }

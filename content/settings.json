@@ -11,7 +11,8 @@
     "social": {
       "github": "https://github.com/jms0522",
       "linkedin": "linkedin.com/in/minsoo-jang-385200293/",
-      "mail": "mailto:jiseo33668@gmail.com"
+      "mail": "mailto:jiseo33668@gmail.com",
+      "Notion": "https://url.kr/ospqnc"
     }
   },
   "siteConfiguration": {
@@ -20,7 +21,7 @@
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Blog", "url": "/blog" },
-        { "label": "Projects", "url": "/#features" },
+        { "label": "Projects", "url": "/#Projects" },
         { "label": "Github", "url": "/#github" }
       ],
       "ctaButton": {
