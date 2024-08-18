@@ -1,5 +1,5 @@
 ---
-title: "[ELK-stack] About ELK-Stack "
+title: "⚒️ [ELK-stack] About ELK-Stack "
 description: "다양한 상황에서 사용하는 ELK-stack에 대한 설명과 경험"
 date: "2024-08-18"
 banner:
@@ -19,16 +19,19 @@ keywords:
 
 # ⚒️ About ELK
 
+
 ## 💬 들어가며
 
 **Medical-AI 프로젝트에서 처음 실시간 데이터 파이프라인을 구축할 때 알게 되어 사용하게 되었고 다양한 장점이 있어 자주 사용하는 스택 중 하나입니다.**
 지금 진행하고 있는 프로젝트에서도 사용하고 있기에, 오늘은 간단한 소개와 함께 공부해보는 시간을 갖기 위해 글을 작성합니다.
 제 개인적인 생각도 포함하고 있어 모든 게 정답은 아니니 참고하시는 용도로 봐주시면 감사하겠습니다. 🫡
 
+
 ## 🚀 ELK
 
 ELK Stack은 Elasticsearch, Logstash, 그리고 Kibana의 약자로, 로그 및 이벤트 데이터를 수집, 저장, 검색, 분석, 시각화하는 데 사용되는 오픈 소스 소프트웨어 스택입니다. 
 ELK Stack은 DevOps 및 데이터 분석에서 널리 사용되며, 시스템 성능을 모니터링하고, 애플리케이션 로그를 분석하며, 보안 위협을 감지하는 데 매우 유용합니다.
+
 
 ### Elasticsearch
 
@@ -64,6 +67,7 @@ ELK Stack은 DevOps 및 데이터 분석에서 널리 사용되며, 시스템 �
   Beats는 시스템의 로그, 메트릭스, 네트워크 데이터를 수집하여 Logstash나 Elasticsearch로 전송하는 역할을 합니다.
   Filebeat, Metricbeat 등 다양한 종류가 있습니다.
 
+
 ## ✅ 활용사례
 
 - **로그 관리**: 애플리케이션, 서버, 네트워크 장비의 로그를 수집하고 분석하여 문제를 신속하게 진단할 수 있습니다.
@@ -80,6 +84,7 @@ ELK Stack은 DevOps 및 데이터 분석에서 널리 사용되며, 시스템 �
 - **자원 소모**: 특히 Elasticsearch는 데이터 양과 쿼리 복잡도에 따라 높은 자원을 요구할 수 있습니다.
 
 
-🧑🏻‍💻 오늘은 간단하게 ELK를 소개해봤는데요, 
-   제 [GitHub 프로젝트](https://github.com/jms0522/Streaming-Data)에서 자세한 코드와 이슈를 확인하실 수 있습니다. 
-   감사합니다.
+## 🧑🏻‍💻 마치며
+오늘은 간단하게 ELK를 소개해봤는데요, 
+제 [GitHub](https://github.com/jms0522/Streaming-Data)에서 자세한 코드와 이슈를 확인하실 수 있습니다. 
+감사합니다.
