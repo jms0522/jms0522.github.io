@@ -19,18 +19,19 @@ keywords:
 
 # ⚒️ About ELK
 
+![ELK Stack](/Users/jangminsoo/Desktop/github-blog/portfolio-minimal/content/images/elk-stack.png)
+
+## 🚀 ELK
+
+ELK Stack은 Elasticsearch, Logstash, 그리고 Kibana의 약자로, 로그 및 이벤트 데이터를 수집, 저장, 검색, 분석, 시각화하는 데 사용되는 오픈 소스 소프트웨어 스택입니다. 
+ELK Stack은 DevOps 및 데이터 분석에서 널리 사용되며, 시스템 성능을 모니터링하고, 애플리케이션 로그를 분석하며, 보안 위협을 감지하는 데 매우 유용합니다.
+
 
 ## 💬 들어가며
 
 **Medical-AI 프로젝트에서 처음 실시간 데이터 파이프라인을 구축할 때 알게 되어 사용하게 되었고 다양한 장점이 있어 자주 사용하는 스택 중 하나입니다.**
 지금 진행하고 있는 프로젝트에서도 사용하고 있기에, 오늘은 간단한 소개와 함께 공부해보는 시간을 갖기 위해 글을 작성합니다.
 제 개인적인 생각도 포함하고 있어 모든 게 정답은 아니니 참고하시는 용도로 봐주시면 감사하겠습니다. 🫡
-
-
-## 🚀 ELK
-
-ELK Stack은 Elasticsearch, Logstash, 그리고 Kibana의 약자로, 로그 및 이벤트 데이터를 수집, 저장, 검색, 분석, 시각화하는 데 사용되는 오픈 소스 소프트웨어 스택입니다. 
-ELK Stack은 DevOps 및 데이터 분석에서 널리 사용되며, 시스템 성능을 모니터링하고, 애플리케이션 로그를 분석하며, 보안 위협을 감지하는 데 매우 유용합니다.
 
 
 ### Elasticsearch
