@@ -11,10 +11,10 @@
     "title": " ",
     "subtitle": {
         "prefix": "유용한 정보를 제공하고 ",
-        "highlight": " ",
-        "suffix": "더 나은 발전을 위해 노력하겠습니다 🚀"
+        "highlight": "",
+        "suffix": " 더 나은 발전을 위해 노력하겠습니다 🚀"
     },
-    "description": "이 블로그에서는 다양한 유용한 정보와 경험을 공유합니다.",
+    "description": "This blog shares a variety of useful information and experiences.",
     "socialProfiles": {
         "from": ["LinkedIn", "Github", "Mail"],
         "showIcons": false
