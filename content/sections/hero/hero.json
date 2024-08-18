@@ -1,7 +1,7 @@
 {
     "intro": "안녕하세요",
     "heroPhoto": {
-        "src": "../../images/lego-dummy.png",
+        "src": "../../images/myphoto.JPG",
         "alt": "My Photo"
     },
     "image": {
