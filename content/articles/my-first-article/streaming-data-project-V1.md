@@ -1,5 +1,5 @@
 ---
-title: "🚀 [Streaming data] ELK-Stack-V1"
+title: "🚀 [Streaming data] ELK-V1"
 description: "Streaming-data Project version.1"
 date: "2024-08-19"
 banner:
