@@ -5,7 +5,7 @@
       "category": "⚒️ Pipeline",
       "title": "🚀 멀티 파이프라인 프로젝트",
       "description": "데이터 중심의 애플리케이션을 위해 다양한 데이터 파이프라인을 구축하고, 관리하며, 배포하는 것을 목표로 합니다.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "tags": ["Streamign Data", "Pipeline", "Data", "kafka", "ELK"],
       "image": {
         "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
         "alt": "Pipeline Project",
