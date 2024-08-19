@@ -2,23 +2,23 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
+      "category": "⚒️ Pipeline",
+      "title": "🚀 멀티 파이프라인 프로젝트",
+      "description": "데이터 중심의 애플리케이션을 위해 다양한 데이터 파이프라인을 구축하고, 관리하며, 배포하는 것을 목표로 합니다.",
       "tags": ["Content Integration", "Ready-2-Deploy"],
       "image": {
         "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "alt": "Pipeline Project",
+        "linkTo": "https://github.com/https://github.com/jms0522/Streaming-Data"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/https://github.com/jms0522/Streaming-Data"
         },
         {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://github.com/jms0522/Streaming-Data/discussions/8"
         }
       ]
     },
