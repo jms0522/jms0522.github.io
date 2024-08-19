@@ -3,11 +3,17 @@ imageSrc: "../../images/macmusic.jpg"
 imageAlt: "about me img"
 ---
 
-안녕하세요 🫡 저는 데이터 엔지니어를 꿈꾸는 **장민수**입니다.
+안녕하세요 🫡 
 
-효율적이고 견고한 데이터 파이프라인을 구축하고, 데이터로 가치를 창출하는 일에 열정을 가지고 있습니다.
+저는 데이터 엔지니어를 꿈꾸는 **장민수**입니다.
 
-💬 데이터 엔지니어링, 분석, 또는 최신 기술 트렌드에 대한 대화를 항상 환영합니다!
+효율적이고 견고한 데이터 파이프라인을 구축하고, 
+
+데이터로 가치를 창출하는 일에 열정을 가지고 있습니다.
+
+💬 데이터 엔지니어링, 분석, 
+
+또는 최신 기술 트렌드에 대한 대화를 항상 환영합니다!
 
 <p style="margin: 30px 0;">
     <a href="https://www.notion.so/f25ef223059c4d15950bf50373d6173a" style="font-size: 20px; color: #0073e6; text-decoration: none; border: 2px solid #0073e6; padding: 12px 24px; border-radius: 4px;">

@@ -4,17 +4,17 @@
       "visible": true,
       "category": "⚒️ Pipeline",
       "title": "🚀 멀티 파이프라인 프로젝트",
-      "description": "데이터 중심의 애플리케이션을 위해 다양한 데이터 파이프라인을 구축하고, 관리하며, 배포하는 것을 목표로 합니다.",
+      "description": "💬 데이터 중심의 애플리케이션을 위해 다양한 데이터 파이프라인을 구축하고, 관리하며, 배포하는 것을 목표로 합니다.",
       "tags": ["Streamign Data", "Pipeline", "Data", "kafka", "ELK"],
       "image": {
         "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
         "alt": "Pipeline Project",
-        "linkTo": "https://github.com/https://github.com/jms0522/Streaming-Data"
+        "linkTo": "https://github.com/jms0522/Streaming-Data"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/https://github.com/jms0522/Streaming-Data"
+          "url": "https://github.com/jms0522/Streaming-Data"
         },
         {
           "type": "external",
@@ -24,18 +24,18 @@
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "⚒️ Pipeline 🤖 Chatbot 💻LLM+RAG",
+      "title": "🚀 Medicla AI",
+      "description": "💬 의료 불평등, 취약 계층을 위한 의료 AI 구축",
+      "tags": ["LLM", "RAG", "Airflow", "ELK", "Vector DB", "Monitoring System"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
-        "alt": "Extendable Layout"
+        "src": "../../images/medicaljpeg.jpeg",
+        "alt": "Medical Project"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/jms0522/Medical-project"
         }
       ]
     }
@@ -43,6 +43,6 @@
   "button": {
     "visible": true,
     "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "url": "https://github.com/jms0522/Medical-project"
   }
 }
