@@ -1,60 +1,88 @@
 {
   "interests": [
     {
-      "label": "Quick and Easy Setup",
+      "label": "Python",
       "image": {
-        "src": "../../images/joystick.png",
+        "src": "../../images/python.png",
         "alt": ""
       }
     },
     {
-      "label": "Content via Markdown",
+      "label": "Apache Kafka",
       "image": {
-        "src": "../../images/notebook.png",
+        "src": "../../images/kafka.png",
         "alt": ""
       }
     },
     {
-      "label": "Responsive Design",
+      "label": "Apache Airflow",
       "image": {
-        "src": "../../images/nail-polish.png",
+        "src": "../../images/airflow.png",
         "alt": ""
       }
     },
     {
-      "label": "Medium Integration",
+      "label": "Apache Hadoop",
       "image": {
-        "src": "../../images/medium.png",
+        "src": "../../images/hadoop.png",
         "alt": ""
       }
     },
     {
-      "label": "Animations",
+      "label": "Apache Spark",
       "image": {
-        "src": "../../images/gem-stone.png",
+        "src": "../../images/spark.png",
         "alt": ""
       }
     },
     {
-      "label": "PWA (Offline Support)",
+      "label": "ELK",
       "image": {
-        "src": "../../images/mobile-phone.png",
+        "src": "../../images/elk.png",
         "alt": ""
       }
     },
     {
-      "label": "Modern Tech-Stack",
+      "label": "Docker",
       "image": {
-        "src": "../../images/gatsby.png",
+        "src": "../../images/docker.png",
         "alt": ""
       }
     },
     {
-      "label": "Blazing Fast",
+      "label": "Granfana",
       "image": {
-        "src": "../../images/high-voltage.png",
+        "src": "../../images/grafana.png",
         "alt": ""
       }
+    },
+    {
+      "label": "Prometheus",
+      "image": {
+        "src": "../../images/prometheus.png",
+        "alt": ""
+      }
+    },
+    {
+        "label": "Linux",
+        "image": {
+            "src": "../../images/linux.png",
+            "alt": ""
+        }
+    },
+    {
+        "label": "Git",
+        "image": {
+            "src": "../../images/git.png",
+            "alt": ""
+        }
+    },
+    {
+        "label": "AWS",
+        "image": {
+            "src": "../../images/aws.png",
+            "alt": ""
+        }
     }
   ],
   "button": {
