@@ -3,7 +3,7 @@ title: "🚀 [Kafka-ELK] Topic Visualization"
 description: "Api로 받은 데이터를 Kafka - Kibana 시각화"
 date: "2024-08-19"
 banner:
-  src: "../../images/kafka2.png"
+  src: "../../images/newkafka.png"
   alt: "ELK"
   caption: 'Photo by <u><a href="https://kafka.apache.org/documentation">kafka-docs</a></u>'
 categories:
@@ -20,7 +20,7 @@ keywords:
 
 # 📊 Topic Visualization
 
-![Visualization](/Users/jangminsoo/Desktop/github-blog/portfolio-minimal/content/images/kafka2.png)
+![Visualization](/Users/jangminsoo/Desktop/github-blog/portfolio-minimal/content/images/newkafka.png)
 
 최근에 재미로 진행한 프로젝트에서 **Instagram Scraper API (Rapid API)**를 사용해 Instagram 데이터를 수집한 후, Kafka를 통해 전달하고, Logstash를 통해 Elasticsearch로 데이터를 전송했습니다.
 
