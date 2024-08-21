@@ -20,7 +20,7 @@ keywords:
 
 # 🌬️ Apache Airflow: 공부하기
 
-![Airflow](/Users/jangminsoo/Desktop/github-blog/portfolio-minimal/content/images/airflow-workflow.png)
+![Airflow](/Users/jangminsoo/Desktop/github-blog/portfolio-minimal/content/images/airflow-profile.png)
 
 
 ## ✅ DAG 파일 배치
