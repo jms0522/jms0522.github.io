@@ -20,7 +20,7 @@ keywords:
 
 # 📊 Topic Visualization
 
-![Visualization](/Users/jangminsoo/Desktop/github-blog/portfolio-minimal/content/images/newkafka.png)
+![Visualization](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/newkafka.png)
 
 최근에 재미로 진행한 프로젝트에서 **Instagram Scraper API (Rapid API)**를 사용해 Instagram 데이터를 수집한 후, Kafka를 통해 전달하고, Logstash를 통해 Elasticsearch로 데이터를 전송했습니다.
 

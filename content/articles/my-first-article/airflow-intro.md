@@ -20,7 +20,7 @@ keywords:
 
 # 🌬️ Apache Airflow: 데이터 파이프라인을 코드로 관리하는 방법
 
-![Airflow](/Users/jangminsoo/Desktop/github-blog/portfolio-minimal/content/images/airflow-profile.png)
+![Airflow](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/airflow-profile.png)
 
 
 ## 💬 소개

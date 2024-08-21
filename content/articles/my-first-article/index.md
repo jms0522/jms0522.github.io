@@ -19,7 +19,7 @@ keywords:
 
 # ⚒️ About ELK
 
-![ELK Stack](/Users/jangminsoo/Desktop/github-blog/portfolio-minimal/content/images/elk-stack.png)
+!![ELK-stack](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/elk-stack.png)
 
 ## 🚀 ELK
 

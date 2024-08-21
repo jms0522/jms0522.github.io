@@ -21,7 +21,7 @@ keywords:
 
 # 🚀 ELK V1
 
-![ELK V1](/Users/jangminsoo/Desktop/github-blog/portfolio-minimal/content/images/multipipeline.png)
+![V1](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/multipipeline.png)
 
 
 **ELK Stack**은 Elasticsearch, Logstash, 그리고 Kibana의 약자로, 로그 및 이벤트 데이터를 수집, 저장, 검색, 분석, 시각화하는 데 사용되는 오픈 소스 소프트웨어 스택입니다. ELK Stack은 DevOps 및 데이터 분석에서 널리 사용되며, 시스템 성능을 모니터링하고, 애플리케이션 로그를 분석하며, 보안 위협을 감지하는 데 매우 유용합니다.
