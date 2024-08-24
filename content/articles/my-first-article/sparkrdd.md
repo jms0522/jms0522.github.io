@@ -1,5 +1,5 @@
 ---
-title: " 🌟 [Spark] About Spark "
+title: " 🌟 [Spark] Spark RDD"
 description: "Spark RDD"
 date: "2024-08-23"
 banner:
