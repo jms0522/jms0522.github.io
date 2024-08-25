@@ -18,7 +18,7 @@ keywords:
   - "Visualization"
 ---
 
-# 📊 Topic Visualization
+# 📊 Topic 
 
 ![Visualization](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/newkafka.png)
 
