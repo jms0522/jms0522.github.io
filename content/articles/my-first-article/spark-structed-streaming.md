@@ -17,7 +17,9 @@ keywords:
 ---
 # 💬 Apache Spark Streaming
 
-![Structured Streaming](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/streaming1.png)
+<div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/streaming1.png" alt="Structured Streaming" style="max-width:100%; height:auto;">
+</div>
 
 # 🌟 Apache Spark 구조적 스트리밍(Structured Streaming)
 
