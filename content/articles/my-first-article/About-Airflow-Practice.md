@@ -91,14 +91,13 @@ Airflow를 활용해 다양한 데이터 워크플로우를 구성하고, 데이
 ![Airflow](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/airflow-ing/postgres_data_show.png)
 
 
-## 3. 데이터 kafka에 전달
+## 3. 데이터 Kafka에 전달
 
-[ ] postgres에 있는 데이터를 읽어서 kafka로 보내기.
-[ ] airflow dag를 이용해 스케줄러를 통해 관리하기. 
-    - kafka에 데이터 전송하는 과정에서 계속 문제가 발생함.
+- [ ] Postgres에 있는 데이터를 읽어서 Kafka로 보내기.
+- [ ] Airflow DAG를 이용해 스케줄러를 통해 관리하기.
+    - Kafka에 데이터 전송하는 과정에서 계속 문제가 발생함.
 
+# 📌 진행하고 싶은 작업
 
-# 진행하고 싶은 작업
-
-[ ] Airflow를 통해 스트리밍 데이터 배치 처리하기.
-[ ] 데이터 정합성 보장
+- [ ] Airflow를 통해 스트리밍 데이터 배치 처리하기.
+- [ ] 데이터 정합성 보장
