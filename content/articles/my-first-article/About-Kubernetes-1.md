@@ -30,7 +30,7 @@ keywords:
 
 그로 인해 쿠버네티스가 등장하게 되었다는 말이다.
 
-![Kubernetes working](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kubernetes-images/kubernetes-working.png){ width=400px }
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kubernetes-images/kubernetes-working.png" alt="Kubernetes working" width="400" />
 
 쿠버네티스는 컨테이너 오케스트레이션 도구로, 많은 컨테이너에 있는 어플리케이션을 클러스터에서 효율적으로 관리할 수 있게 해준다.
 
