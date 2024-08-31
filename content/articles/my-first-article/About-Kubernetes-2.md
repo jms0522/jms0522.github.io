@@ -14,7 +14,7 @@ keywords:
   - "Blog"
   - "Kubernetes"
 ---
-![Kubernetes](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kubernetes-images/cluster.png)
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kubernetes-images/cluster.png" alt="Kubernetes cluster" width="600" />
 
 # ⚒️ Kubernetes 주요 Object
 
