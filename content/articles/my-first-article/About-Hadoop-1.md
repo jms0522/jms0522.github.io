@@ -3,7 +3,7 @@ title: " 🌟 [Hadoop] Hadoop-1 "
 description: "Hadoop 소개글"
 date: "2024-09-02"
 banner:
-  src: "../../images/hadoop/hadoop-cover.pnghadoop-cover.png"
+  src: "../../images/hadoop/hadoop-cover.png"
   alt: "Airflow"
   caption: 'Photo by <u><a href="https://hadoop.apache.org/">Hadoop</a></u>'
 categories:
