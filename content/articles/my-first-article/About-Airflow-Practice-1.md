@@ -1,5 +1,5 @@
 ---
-title: " 🌟 [Airflow] Airflow Practice "
+title: " 🌟 [Airflow] Airflow Practice-1 "
 description: "Airflow 간단한 실습입니다."
 date: "2024-08-27"
 banner:
