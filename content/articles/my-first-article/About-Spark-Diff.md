@@ -33,7 +33,7 @@ docker를 통해 EC2에서 Hadoop 클러스터를 생성하고, yarn cluster 모
 
 - 테스트를 진행할 데이터셋 준비 
 
-![New York Cars ~ Big Data (2023)](https://www.kaggle.com/datasets/ahmettalhabektas/new-york-cars-big-data-2023)
+[New York Cars ~ Big Data (2023)](https://www.kaggle.com/datasets/ahmettalhabektas/new-york-cars-big-data-2023)
 
 - 로컬에 다운받은 dataset을 hdfs에 전송
 
