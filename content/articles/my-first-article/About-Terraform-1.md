@@ -40,7 +40,7 @@ Terraform은 HashiCorp에서 개발한 오픈 소스 인프라 관리 도구로,
 
 ## 🔨 작업 순서
 
-<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/terraform-images/working.png" alt="Terraform working" width="500" />
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/terraform-images/working.png" alt="Terraform working" width="700" />
 
 ### 1. 프로젝트 초기화 (terraform init)
 
@@ -76,4 +76,5 @@ Terraform은 HashiCorp에서 개발한 오픈 소스 인프라 관리 도구로,
 ## 📚 참고자료
 
 [Terraform 공식 문서](https://developer.hashicorp.com/terraform/docs)
+
 [HashiCorp Learn](https://developer.hashicorp.com/terraform/tutorials)
