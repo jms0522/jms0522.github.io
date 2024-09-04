@@ -1,13 +1,14 @@
 ---
-title: " 🌟 [Spark] Structured Streaming "
+title: " 🌟 [Spark] Structured Streaming -1 "
 description: "Spark의 구조적 스트리밍에 대해."
 date: "2024-08-25"
 banner:
-  src: "../../images/spark-cover.png"
+  src: "../../images/spark-practice/spark-st-cover.png"
   alt: "Spark"
   caption: 'Photo by <u><a href="https://spark.apache.org">Spark</a></u>'
 categories:
   - "Spark"
+  - "Streaming"
   - "ALL"
 keywords:
   - "Pipeline"
