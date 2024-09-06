@@ -1,10 +1,10 @@
 ---
-title: " 🌟 [Spark] Streaming VS Structured "
-description: "Streaming , Structured의 차이 "
-date: "2024-08-25"
+title: " 🌟 [Spark] Spark Practice-1 "
+description: "간단한 spark 실습 1 "
+date: "2024-09-03"
 banner:
   src: "../../images/spark-cover.png"
-  style: "background-size: contain; background-position: center;"
+  style: "width: 100%; height: auto;"
   alt: "Spark"
   caption: 'Photo by <u><a href="https://spark.apache.org">Spark</a></u>'
 categories:
@@ -12,72 +12,37 @@ categories:
   - "ALL"
 keywords:
   - "Pipeline"
-  - "Big-Data"
   - "Blog"
   - "Spark"
 ---
 # 🚀 Apache Spark 
 
-![Spark](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/spark-cover.png)
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/spark-practice/spark-hadoop.png" alt="Hadoop-Spark" width="600" />
 
-# 🌟 Spark Streaming vs Structured Streaming: 둘의 차이점은?
+# 🌟 Hadoop과 Spark의 간단한 실습을 진행해보자!
 
- 실시간 스트리밍 데이터 처리를 위해 두 가지 API를 제공합니다: 
- 
- **Spark Streaming**과 **Structured Streaming**. 
+docker를 통해 EC2에서 Hadoop 클러스터를 생성하고, yarn cluster 모드를 이용한 spark의 간단한 실습입니다.
 
- 둘은 비슷해 보이지만 차이점이 존재하여 블로그를 작성합니다.
+오늘은 간단한 실습만 진행하고 다음엔 좀 더 복잡한 내용과 스트리밍 처리까지 진행하겠습니다. 🫡
 
-## 💬 기본 개념
+## 💬 기본 구성
 
-### Spark Streaming
-- **개념:** Spark Streaming은 **마이크로 배치 (Micro-batching)** 개념에 기반하여 실시간 데이터를 처리합니다. 스트리밍 데이터를 작은 배치로 나누어 정기적으로 처리합니다.
-- **처리 방식:** 일정 간격으로 데이터를 수집한 후, 이를 RDD 형태로 변환하여 처리합니다.
-- **출시:** Spark Streaming은 Apache Spark의 초기 버전에서 도입된 스트리밍 API입니다.
+[hadoop 및 spark 설정파일](https://github.com/jms0522/hadoop_system)
 
-### Structured Streaming
-- **개념:** Structured Streaming은 **엔드-투-엔드 (End-to-End)** 스트리밍 프레임워크로, 데이터 처리를 "Continuous"하게 수행합니다. DataFrame과 Dataset API를 기반으로 하며, 처리 논리가 더 명확하고 쉽게 작성될 수 있습니다.
-- **처리 방식:** 실시간 데이터를 DataFrame 또는 Dataset 형태로 처리하며, 배치와 스트리밍 작업을 동일한 방식으로 실행할 수 있습니다.
-- **출시:** Structured Streaming은 Spark 2.0에서 도입.
+## 💫 진행 순서
 
-## ❗️ 주요 차이점
+- 테스트를 진행할 데이터셋 준비 
 
-| **특징**                         | **Spark Streaming**                | **Structured Streaming**            |
-|----------------------------------|-----------------------------------|-------------------------------------|
-| **처리 모델**                    | 마이크로 배칭                      | Continuous 처리                     |
-| **API**                          | RDD 기반                           | DataFrame/Dataset 기반              |
-| **고장 복구**                    | 체크포인트 기반                   | 체크포인트 및 트랜잭션 로그 기반   |
-| **성능**                         | 지연 시간이 상대적으로 길다        | 낮은 지연 시간 및 고성능            |
-| **내부 엔진**                    | DStream 엔진                       | Catalyst 옵티마이저 사용            |
-| **정확한 처리 (Exactly-Once)**   | 상태 저장 스트리밍에서만 지원      | 기본적으로 Exactly-Once 보장        |
-| **윈도우 지원**                  | 지원                               | 기본 제공                           |
-| **통합성**                       | 배치와 스트리밍 코드가 다름        | 배치와 스트리밍 코드 통합           |
+[New York Cars ~ Big Data (2023)](https://www.kaggle.com/datasets/ahmettalhabektas/new-york-cars-big-data-2023)
 
-## 📚 코드 예시 비교
+- 로컬에 다운받은 dataset을 hdfs에 전송
 
-### Spark Streaming 코드 예시
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/spark-practice/hdfs.png" alt="hdfs" width="600" />
 
-    from pyspark import SparkConf
-    from pyspark.streaming import StreamingContext
+- Spark 시작 - hadoop 연결 확인
 
-    # SparkConf 설정
-    conf = SparkConf().setAppName("Spark Streaming Example")
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/spark-practice/spark-connection.png" alt="connection" width="600" />
 
-    # StreamingContext 생성
-    ssc = StreamingContext(conf, 1)
+- Jupyter notebook에서 spark로 간단한 분석
 
-    # 소켓에서 스트리밍 데이터 수신
-    lines = ssc.socketTextStream("localhost", 9999)
-
-    # 단어 분리
-    words = lines.flatMap(lambda line: line.split(" "))
-
-    # 단어 빈도 계산
-    wordCounts = words.map(lambda word: (word, 1)).reduceByKey(lambda a, b: a + b)
-
-    # 콘솔에 출력
-    wordCounts.pprint()
-
-    # 스트리밍 시작
-    ssc.start()
-    ssc.awaitTermination()
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/spark-practice/spark-notebook.png" alt="jupyter" width="600" />
