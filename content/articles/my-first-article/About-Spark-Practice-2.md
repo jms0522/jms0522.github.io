@@ -44,6 +44,10 @@ Logstash는 실시간 데이터를 수집하여 Kafka에 적재하는 역할입�
 
 현재 일단 Elk stack으로 사용하는게 아니라 따로 Logstash 컨테이너를 만들어 수집하도록 하고 있습니다.
 
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/spark-practice/logstash-coll.png" alt="Logs" width="600" />
+
+위의 이미지처럼 Logstash가 데이터를 읽는 모습입니다.
+
 [logstash.conf](https://github.com/jms0522/hadoop_system/tree/main/hadoop/logstash)에서 코드는 보실 수 있습니다.
 
 Logstash에서 conf에서 filter를 통해 데이터를 변환해서 kafka에 적잽합니다.
