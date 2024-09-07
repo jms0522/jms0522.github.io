@@ -18,7 +18,7 @@ keywords:
 ---
 # 💬 Apache Spark Streaming Practice
 
-<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/spark-practice/elk-kafka-spark" alt="Total" width="600" />
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/spark-practice/elk-kafka-spark.png" alt="Total" width="600" />
 
 오늘은 **Spark Streaming**을 중점적으로 활용한 실시간 처리 파이프라인을 구성하는 실습을 진행보겠습니다.
 
@@ -54,7 +54,7 @@ Logstash에서 conf에서 filter를 통해 데이터를 변환해서 kafka에 �
 
 또한 스트리밍 데이터의 데이터 유실을 방지할 수 있어 브로커로 두고 여기서 Spark를 통해 분석을 할 수 있습니다.
 
-<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/spark-practice/kafka_logs" alt="logs" width="600" />
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/spark-practice/kafka_logs.png" alt="logs" width="600" />
 
 위의 이미지처럼 카프카에 실시간으로 로그 데이터가 들어오는 걸 확인할 수 있다.
 
@@ -64,7 +64,7 @@ Logstash에서 conf에서 filter를 통해 데이터를 변환해서 kafka에 �
 
 분석된 데이터는 s3, hdfs등을 통해 저장.
 
-<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/spark-practice/kafka-hdfs" alt="hdfs" width="600" />
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/spark-practice/kafka-hdfs.png" alt="hdfs" width="600" />
 
 -- 진행중....
 
