@@ -1,7 +1,7 @@
 ---
 title: " ⚙️ [AWS] AWS Glue "
 description: "AWS 기능들을 활용하여 파이프라인 구축해보기"
-date: "2024-09-12"
+date: "2024-09-18"
 banner:
   src: "../../images/aws-glue/glue.png"
   alt: "AWS"
