@@ -245,7 +245,6 @@ Snowflake는 실시간 데이터 스트리밍과의 통합을 통해 실시간�
 
 - [Snowflake 공식 문서](https://docs.snowflake.com/)
 - [Snowflake 빠르게 시작하기](https://www.snowflake.com/guides/getting-started/)
-- [Snowflake 유튜브 채널](https://www.youtube.com/snowflakeinc)
 - [Snowflake 블로그](https://www.snowflake.com/blog/)
 - [Snowflake 아키텍처 소개](https://www.snowflake.com/blog/snowflake-architecture-the-cloud-data-platform-that-bites-into-amazon-redshift/)
 - [Snowflake와 데이터 공유](https://www.snowflake.com/guides/data-sharing-in-snowflake/)
