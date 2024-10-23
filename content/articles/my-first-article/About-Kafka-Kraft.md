@@ -14,13 +14,13 @@ keywords:
   - "Kafka"
   - "Kraft"
 ---
-# 🚀 Apache Kafka Kraft
+# 🚀 Apache Kafka KRaft
 
 ![Kafka](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kafka/kafka.png)
 
-오늘은 Kafka의 Kraft 모드에 대해서 공부했습니다.
+오늘은 Kafka의 KRaft 모드에 대해서 공부했습니다.
 
-Kraft 모드와 장단점을 알아봅시다!
+KRaft 모드와 장단점을 알아봅시다!
 
 ## Zookeeper With Kafka
 
@@ -44,13 +44,13 @@ Zookeeper는 Kafka의 메타데이터, 브로커 상태, 토픽, 컨트롤러 �
 
 또한 관리적인 부분에서도 둘은 서로 다른 어플리케이션이므로, 서로 다른 환경, 파일 등을 가지고 있어 동시에 운영을 해야합니다.
 
-이 한계점을 보완하는게 Kraft 모드입니다.
+이 한계점을 보완하는게 KRaft 모드입니다.
 
-## Kraft : Without Zookeeper
+## KRaft : Without Zookeeper
 
 <img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kafka/kraft.png" alt="Total" width="600" />
 
-Kraft 모드는 즉 Zookeeper가 관리를 하는 게 아닌 Kafka 자체가 관리를 할 수 있게 해줍니다.
+KRaft 모드는 즉 Zookeeper가 관리를 하는 게 아닌 Kafka 자체가 관리를 할 수 있게 해줍니다.
 
 즉 Zookeeper의 의존성을 제거합니다.
 
@@ -68,7 +68,7 @@ Zookeeper가 관리하던 메타데이터를 카스카 클러스터 내의 브�
 
 이 처럼 자체에서 관리를 함으로 간편한 운영과 확장성이 있습니다.
 
-Kraft 모드에서 주요한 성능 개선 중 하는 바로 파티션의 리더 선출 최적화입니다.
+KRaft 모드에서 주요한 성능 개선 중 하는 바로 파티션의 리더 선출 최적화입니다.
 
 컨트롤러의 주요 역할이 파티션의 리더를 선출하는 것인데 대량의 파티션에 대한 작업 시간은 다소 소요되게 됩니다.
 
@@ -76,12 +76,20 @@ Kraft 모드에서 주요한 성능 개선 중 하는 바로 파티션의 리더
 
 Zookeeper에서는 이 때문에 클러스터의 전체 파티션 수를 200,000 정도로 제한 했으나
 
-Kraft에서는 더 많은 파티션을 만들 수 있습니다.
+KRaft에서는 더 많은 파티션을 만들 수 있습니다.
 
 또 다른 장점은 복구에 필요한 시간입니다.
 
 <img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kafka/recovery.png" alt="Total" width="600" />
 
+위에 복구 시간 소요를 비교해놓은 자료입니다.
+
+복구 시간의 차이가 엄청 나는데 이는 KRaft 모드에서는 컨트롤러가 메모리 내에 메타데이터 캐시를 유지하고 있고,
+
+메타데이터 동기화와 관리 과정을 효울적으로 개선했기 때문입니다.
+
+
+[참고](https://devocean.sk.com/blog/techBoardDetail.do?ID=165711&boardType=techBlog)
 
 
 
