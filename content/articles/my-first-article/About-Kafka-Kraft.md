@@ -24,7 +24,7 @@ Kraft 모드와 장단점을 알아봅시다!
 
 ## Zookeeper With Kafka
 
-![Zookeeper](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kafka/zookeeper.png)
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kafka/zookeeper.png" alt="Total" width="600" />
 
 Kafka는 Zookeeper라는 관리 도구를 사용합니다.
 
@@ -48,7 +48,7 @@ Zookeeper는 Kafka의 메타데이터, 브로커 상태, 토픽, 컨트롤러 �
 
 ## Kraft : Without Zookeeper
 
-![Kraft](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kafka/kraft.png)
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kafka/kraft.png" alt="Total" width="600" />
 
 Kraft 모드는 즉 Zookeeper가 관리를 하는 게 아닌 Kafka 자체가 관리를 할 수 있게 해줍니다.
 
@@ -60,11 +60,27 @@ Kraft 모드는 즉 Zookeeper가 관리를 하는 게 아닌 Kafka 자체가 관
 
 Zookeeper가 관리하던 메타데이터를 카스카 클러스터 내의 브로커 중 컨트롤러를 선출한 뒤 별도의 토픽으로 메타데이터를 관리하게 됩니다.
 
-![Kraft](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kafka/kraft-detail.png)
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kafka/kraft-detail.png" alt="Total" width="600" />
 
 컨트롤러가 늘어나고 이들 중 리더 컨트롤러가 액티브 컨트롤러이면서 리더 역할을 담당합니다.
 
 리더 역할을 하는 컨트롤러는 write 역할도 맡아 수행합니다.
+
+이 처럼 자체에서 관리를 함으로 간편한 운영과 확장성이 있습니다.
+
+Kraft 모드에서 주요한 성능 개선 중 하는 바로 파티션의 리더 선출 최적화입니다.
+
+컨트롤러의 주요 역할이 파티션의 리더를 선출하는 것인데 대량의 파티션에 대한 작업 시간은 다소 소요되게 됩니다.
+
+이는 데이터 파이프라인에 좋지 않은 요소로 작용할 수 있습니다.
+
+Zookeeper에서는 이 때문에 클러스터의 전체 파티션 수를 200,000 정도로 제한 했으나
+
+Kraft에서는 더 많은 파티션을 만들 수 있습니다.
+
+또 다른 장점은 복구에 필요한 시간입니다.
+
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/kafka/recovery.png" alt="Total" width="600" />
 
 
 
