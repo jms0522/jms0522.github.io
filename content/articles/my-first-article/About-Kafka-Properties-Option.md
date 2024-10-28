@@ -1,7 +1,7 @@
 ---
 title: " 🚀 [Kafka] About Kafka Kraft "
 description: "Kafka 간단한 소개글입니다."
-date: "2024-10-23"
+date: "2024-10-29"
 banner:
   src: "../../images/kafka/kafka.png"
   alt: "Kafka"
