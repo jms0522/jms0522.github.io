@@ -1,5 +1,5 @@
 ---
-title: " 🚀 [Kafka] About Kafka Kraft "
+title: " 🚀 [Kafka] About Kafka Kraft-Properties "
 description: "Kafka 간단한 소개글입니다."
 date: "2024-10-29"
 banner:
