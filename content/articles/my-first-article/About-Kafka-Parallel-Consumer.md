@@ -43,7 +43,14 @@ keywords:
 
 ## Parallel Consumer ?
 
+파티션을 늘리지 않으면서 처리량을 늘리기 위해서 사용하는 게 바로 Parallel Consumer 입니다.
 
+Parallel Consumer는 병렬 처리 단위를 파티션이 아닌 메시지 단위로 설정을 할 수 있습니다.
 
+![Kafka](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/parellel-consumer/kafka-basic.png)
+
+![Parallel Consumer](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/parellel-consumer/kafka-parallel.png)
+
+위의 그림과 같이 하나의 파티션인데 복수의 스레드를 활용하여 3개의 메시지를 동시에 처리하는 것을 볼 수 있습니다.
 
 
