@@ -45,13 +45,23 @@ keywords:
 
 **Properties**
 
+'go.application.rebalance.enable'
+
+리밸런스 옵션입니다.
+
+기본적으로 **'false'** 이며 이 경우 조급한 리밸런스가 적용됩니다.
+
+반대로 **'true'**로 설정한 경우는 협력적 리밸런스가 적용이 됩니다.
+
+
+'group.id'
+
+컨슈머는 그룹 형태로 동작을 수행합니다.
+
+같은 그룹에 속하려면 같은 group.id를 가지고 있어야 합니다.
 
 
 
-
-![Kafka](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/parellel-consumer/kafka-basic.png)
-
-![Parallel Consumer](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/parellel-consumer/kafka-parallel.png)
 
 
 
