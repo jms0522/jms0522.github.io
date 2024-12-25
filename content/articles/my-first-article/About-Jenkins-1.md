@@ -51,9 +51,9 @@ git을 사용하느냐 생성된 산출물을 얼마나 많이 얼마나 보관�
 
 작성하였습니다.
 
-![Pipeline](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/jenkins/jenkins-pl.png)
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/jenkins/jenkins-pl.png" alt="Pipeline" width="600" height="auto">
 
-![result](https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/jenkins/success.png)
+<img src="https://raw.githubusercontent.com/jms0522/jms0522.github.io/main/content/images/jenkins/success.png" alt="result" width="600" height="auto">
 
 
 - 스크립트는 groovy문법으로 작성하는 거 같은데 생각보다 어렵진 않았습니다.
